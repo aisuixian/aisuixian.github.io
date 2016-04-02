@@ -16,6 +16,16 @@ jQuery(document).ready(function($){
 	);
 
 
+	/************** LightBox *********************/
+	$(function(){
+		$('[data-rel="lightbox"]').lightbox();
+	});
+
+
+ 
+    $(".responsive_menu a").click(function(){
+		$('.responsive_menu').hide();
+	});
 
 });
 
