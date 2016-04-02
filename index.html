@@ -49,7 +49,7 @@
 				        </a>
 					</div> <!-- /.col-md-12 -->
                     <div class="col-md-3 col-sm-12">
-                    	<a href="#"><img src="images/templatemo_logo.jpg" alt="Polygon Template"></a>
+                    	<a href="#"><img src="images/logo.png" alt="Polygon Template"></a>
                     </div>
 					<div class="col-md-9 main_menu">
 						<ul>
@@ -729,7 +729,10 @@
    
     
 	<!-- footer start -->
-     <script language="javascript" src="foot.html"></script>
+	   <div id="footDiv"></div>
+      <script type="text/javascript">
+       $("#footDiv").load("foot.html");
+      </script>
     <!-- footer end -->    
 	<script>
 	$('.gallery_more').click(function(){
